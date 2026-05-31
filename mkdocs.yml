@@ -27,38 +27,14 @@
 # | - https://www.mkdocs.org/user-guide/configuration/#site_url                                            |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-site_name: MkDocs Template
-site_description: 'A template for future MkDocs wikis'
-site_author: 'Andre_601'
-#site_url: 'https://www.andre601.ch/mkdocs-template' # Uncomment to set a canonical URL
+site_name: My second Brain
+site_description: "A template for future MkDocs wikis"
+site_author: "harry-cmartin"
 
-# +--------------------------------------------------------------------------------------------------------+
-# |                                                                                                        |
-# | This setting allows you to define your own Copyright notice.                                           |
-# | The text is treated as HTML code so you can use things like <a> tags or &copy; to display the          |
-# | Copyright icon.                                                                                        |
-# |                                                                                                        |
-# | Where or IF the Copyright is displayed depends on the theme you use.                                   |
-# |                                                                                                        |
-# | Read More:                                                                                             |
-# | - https://www.mkdocs.org/user-guide/configuration/#copyright                                           |
-# |                                                                                                        |
-# +--------------------------------------------------------------------------------------------------------+
 copyright: |
-  &copy; Author
+  &copy; harry-cmartin
 
-# +--------------------------------------------------------------------------------------------------------+
-# |                                                                                                        |
-# | The base folder to use.                                                                                |
-# | Any Markdown files you put into this folder will be turned into a static HTML page once you build or   |
-# | publish your page.                                                                                     |
-# |                                                                                                        |
-# | It is also used as the base directory for other settings like the "extra_css" or "extra_javascript"    |
-# | option.                                                                                                |
-# |                                                                                                        |
-# +--------------------------------------------------------------------------------------------------------+
 docs_dir: docs/
-
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
@@ -75,26 +51,33 @@ docs_dir: docs/
 # | - https://www.mkdocs.org/user-guide/configuration/#edit_uri                                            |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-repo_name: Andre601/mkdocs-template
-repo_url: https://github.com/Andre601/mkdocs-template
+repo_name: harry-cmartin/my-second-brain
+repo_url: https://github.com/harry-cmartin/my-second-brain
 #edit_uri: tree/master/docs # Uncomment to define a different URI/URL for the "edit" option
 
-# +--------------------------------------------------------------------------------------------------------+
-# |                                                                                                        |
-# | The "nav" option is where you define the navigation to show in MkDocs.                                 |
-# |                                                                                                        |
-# | Depending on the theme you use will the resulting Navigation look different.                           |
-# |                                                                                                        |
-# | You can set different types of navigations. Either just the path, the path with a separate title or    |
-# | an external URL.                                                                                       |
-# |                                                                                                        |
-# | Read More:                                                                                             |
-# | - https://www.mkdocs.org/user-guide/configuration/#documentation-layout                                |
-# |                                                                                                        |
-# +--------------------------------------------------------------------------------------------------------+
 nav:
   - Welcome: index.md
+  - Java:
+      - Java Básico :
+        - Funções do Java: Java/JavaBasico/javaintro.md
+        - Hístoria do Java: Java/JavaBasico/javahistory.md
+        - Plataforma Java: Java/JavaBasico/javaplataforms.md
+  - Fundamentos:
+      - Funcionamento do Computador: Fundamentos/FuncionamentoComputador.md
+      - Processadores: Fundamentos/Processadores.md
+      - Sistemas Operacionais: Fundamentos/SistemasOperacionais.md
+      - Memória: Fundamentos/Memoria.md
+  - Linguagens de Programação:
+      - Compilada vs Interpretada: Linguagem/CompiladaVsInterpretada.md
+      - Paradigmas de Programação:
+          - Paradigmas: Linguagem/Paradigmas.md
+          - Imperativos: Linguagem/Imperativos.md
+          - Declarativos: Linguagem/Declarativos.md
+  - Git e GitHub:
+      - Versionamento de Código: Git/GitVersionamentoCodigo.md
 
+      
+      
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
 # | The "theme" section allows you to define what theme to use.                                            |
@@ -106,120 +89,29 @@ nav:
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
 theme:
+  name: "material"
 
-  # +------------------------------------------------------------------------------------------------------+
-  # |                                                                                                      |
-  # | The "name" option is where you define the theme to use.                                              |
-  # |                                                                                                      |
-  # | Note that not all themes are included by default and will require you to install them first.         |
-  # | The Material theme is one of them. See the "Read More" link for instructions on how to install it.   |
-  # |                                                                                                      |
-  # | Read More:                                                                                           |
-  # | - https://squidfunk.github.io/mkdocs-material/getting-started/                                       |
-  # |                                                                                                      |
-  # +------------------------------------------------------------------------------------------------------+
-  name: 'material'
-  
-  # +------------------------------------------------------------------------------------------------------+
-  # |                                                                                                      |
-  # | The Material theme allows "theme-extsnions", meaning that you can override parts of it by either     |
-  # | overriding a particular file, or only parts (blocks) of it.                                          |
-  # |                                                                                                      |
-  # | If you want to override parts of Material, uncomment the "custom_dir" option below and set the       |
-  # | folder (relative to the mkdocs.yml file) where your theme extensions will be located at.             |
-  # |                                                                                                      |
-  # | Read More:                                                                                           |
-  # | - https://www.mkdocs.org/user-guide/configuration/#custom_dir                                        |
-  # | - https://squidfunk.github.io/mkdocs-material/customization/#extending-the-theme                     |
-  # |                                                                                                      |
-  # +------------------------------------------------------------------------------------------------------+
-  #custom_dir: 'theme'
-  
-  # +------------------------------------------------------------------------------------------------------+
-  # |                                                                                                      |
-  # | The "favicon" option allows you to set your own image/icon to use in the browser-tab.                |
-  # |                                                                                                      |
-  # | Pretty much all image types are supported, but it's recommended to use a PNG, SVG or ICO image for   |
-  # | the favicon.                                                                                         |
-  # |                                                                                                      |
-  # | The directory is relative to the "docs_dir".                                                         |
-  # |                                                                                                      |
-  # | Example: Having a favicon.png in docs/assets/images will result in the "favicon" setting showing     |
-  # |          'assets/images/favicon.png'                                                                 |
-  # |                                                                                                      |
-  # | Read More:                                                                                           |
-  # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#favicon             |
-  # |                                                                                                      |
-  # +------------------------------------------------------------------------------------------------------+
-  #favicon: 'assets/images/favicon.png'
-  
-  # +------------------------------------------------------------------------------------------------------+
-  # |                                                                                                      |
-  # | The "palette" section is a Material option and allows you to define specific style options such as   |
-  # | Color-Scheme, and primary and secondary Color.                                                       |
-  # |                                                                                                      |
-  # | You can also define multiple palettes that can have different Color Schemses and primary and/or      |
-  # | secondary Colors.                                                                                    |
-  # |                                                                                                      |
-  # | Read More:                                                                                           |
-  # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/                             |
-  # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-palette-toggle        |
-  # |                                                                                                      |
-  # +------------------------------------------------------------------------------------------------------+
   palette:
-  
-    # +----------------------------------------------------------------------------------------------------+
-    # |                                                                                                    |
-    # | The "scheme" option is used to define the Color Scheme used by Material.                           |
-    # |                                                                                                    |
-    # | Material offers a "default" and a "slate" scheme. "default" is obviously the default (bright)      |
-    # | Color scheme while "slate" is the native dark theme from Material.                                 |
-    # |                                                                                                    |
-    # | Read More:                                                                                         |
-    # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-scheme              |
-    # |                                                                                                    |
-    # +----------------------------------------------------------------------------------------------------+
-    scheme: 'slate'
-    
-    # +----------------------------------------------------------------------------------------------------+
-    # |                                                                                                    |
-    # | "primary" is used to set the main color of the Material Theme.                                     |
-    # |                                                                                                    |
-    # | The primary color is used on the top banner of the page but also for things like the link color.   |
-    # |                                                                                                    |
-    # | Read More:                                                                                         |
-    # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color             |
-    # |                                                                                                    |
-    # +----------------------------------------------------------------------------------------------------+
-    primary: 'indigo'
-    
-    # +----------------------------------------------------------------------------------------------------+
-    # |                                                                                                    |
-    # | The "accent" is used for moments such as hovering over links.                                      |
-    # |                                                                                                    |
-    # | Read More:                                                                                         |
-    # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#accent-color              |
-    # |                                                                                                    |
-    # +----------------------------------------------------------------------------------------------------+
-    accent: 'indigo'
-    
-  # +------------------------------------------------------------------------------------------------------+
-  # |                                                                                                      |
-  # | With the "font" option can you set a different font to use.                                          |
-  # |                                                                                                      |
-  # | Material supports all Google fonts, but you can also define your own ones if you choose so.          |
-  # |                                                                                                      |
-  # | The "text" option is used for the regular font while "code" is used for code blocks, inline code and |
-  # | similar.                                                                                             |
-  # |                                                                                                      |
-  # | Read More:                                                                                           |
-  # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/                              |
-  # |                                                                                                      |
-  # +------------------------------------------------------------------------------------------------------+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: deep purple
+      accent: grey
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: indigo
+      accent: grey
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
   #font:
   #  text: 'Roboto'
   #  code: 'Roboto Mono'
-  
+
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
   # | Material suppors more than 40 different languages which you can set using the "language" option      |
@@ -235,7 +127,7 @@ theme:
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
   #language: 'en'
-  
+
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
   # | The "direction" option is commonly used together with the "language" option.                         |
@@ -248,7 +140,7 @@ theme:
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
   #direction: 'ltr'
-  
+
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
   # | The "features" option allows you to enable specific features of Material, by adding them to the      |
@@ -267,35 +159,35 @@ theme:
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
   features:
-  # Announce
-  #
-  #- announce.dismiss # Adds a "X" button to dismiss a news banner/mark it as read.*
-  
-  # Header
-  #
-  #- header.autohide # Hide header when user scrolls past a specific point.
-  
-  # Navigation:
-  #
-  #- navigation.expand      # Expand all collapsable sections.
-  #- navigation.instant     # Instant loading pages.
-  #- navigation.indexes     # Attach pages directly to Sections. Incompatible with "toc.integrate"
-  #- navigation.sections    # Render top sections as groups.
-  - navigation.tabs         # Render top sections as tabs at the top.
+    # Announce
+    #
+    #- announce.dismiss # Adds a "X" button to dismiss a news banner/mark it as read.*
+
+    # Header
+    #
+    #- header.autohide # Hide header when user scrolls past a specific point.
+
+    # Navigation:
+    #
+    #- navigation.expand      # Expand all collapsable sections.
+    #- navigation.instant     # Instant loading pages.
+    #- navigation.indexes     # Attach pages directly to Sections. Incompatible with "toc.integrate"
+    #- navigation.sections    # Render top sections as groups.
+    - navigation.tabs # Render top sections as tabs at the top.
   #- navigation.tabs.sticky # Tabs won't disappear when scrolling down. Requires "navigation.tabs".
   #- navigation.top         # Adds a "Back to top" that is shown when scrolling up.
   #- navigation.tracking    # Updates the url with highlighted section anchor.
-  
+
   # Search
   #
   #- search.highlight # Search will highlight the searched word(s) on the page.*
   #- search.share     # Adds an option to share a search query link.*
   #- search.suggest   # Search will suggest the likeliest completion for a word.*
-  
+
   # Table of Contents
   #
   #- toc.integrate          # Include the TOC sections in the left navugation.
-  
+
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
   # | The "icon" section allows you to define a icon to use for the logo and/or repository.                |
@@ -322,9 +214,9 @@ theme:
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
   icon:
-    logo: 'material/library'
-    repo: 'material/library'
-  
+    logo: "material/library"
+    repo: "material/library"
+
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
   # | The "admonition" option allows you to set a different icon for each admonition type.                 |
@@ -372,7 +264,8 @@ theme:
 # | - https://www.mkdocs.org/user-guide/configuration/#extra_css                                           |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-#extra_css:
+extra_css:
+  - assets/css/extra.css
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
@@ -398,24 +291,12 @@ theme:
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
 extra:
-  # +------------------------------------------------------------------------------------------------------+
-  # |                                                                                                      |
-  # | The social section allows you to set a list of entries which would be displayed in the footer of the |
-  # | page.                                                                                                |
-  # |                                                                                                      |
-  # | Each entry has the exact same options:                                                               |
-  # | - icon: Path to the SVG icon to use. See "icon" section for available icon sets.                     |
-  # | - link: URL to which the icon should link.                                                           |
-  # | - name: Optional Name that would be displayed as title on hover.                                     |
-  # |                                                                                                      |
-  # | Read More:                                                                                           |
-  # | - https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links              |
-  # |                                                                                                      |
-  # +------------------------------------------------------------------------------------------------------+
+  generator: false
   social:
-    - icon: 'fontawesome/brands/github'
-      link: 'https://github.com/Andre601/mkdocs-template'
-  
+    - icon: "fontawesome/brands/github"
+      link: "https://github.com/harry-cmartin/my-second-brain"
+      generator: false
+
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
   # | Allows you to hide the "Made with Material for MkDocs" text in the footer of the pages by setting    |
@@ -425,8 +306,7 @@ extra:
   # | - https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#generator-notice          |
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
-  #generator: true
-  
+
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
   # | The "manifest" option allows you to define a .manifest file to use.                                  |
@@ -438,7 +318,7 @@ extra:
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
   #manifest: manifest.webmanifest
-  
+
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
   # | The "alternate" option can be used to create a selector to switch languages.                         |

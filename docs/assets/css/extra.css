@@ -1,1 +1,15 @@
 @import "extensions/tabbed.css";
+
+
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: #ffffff; /* Exemplo: Bege claro */
+}
+
+/* Cor de fundo para o modo ESCURO */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #161616; /* Exemplo: Preto levemente mais claro */
+}
+
+.md-typeset p {
+    text-indent: 2em; /* Aplica o recuo na primeira linha de todos os parágrafos */
+}
