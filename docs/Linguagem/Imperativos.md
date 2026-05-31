@@ -76,6 +76,10 @@ O detalhamneto desse paradigma e suas características estão descritos no docum
 
 ## Histórico de Versões
 
+<center>
+
 | Versão |    Data    | Descrição            | Autor(es)                                    | Revisor(es) |
 | ------ | :--------: | -------------------- | -------------------------------------------- | ----------- |
 | 1.0    | 30/05/2026 | Criação do documento | [Harryson](https://github.com/harry-cmartin) |             |
+
+</center>
