@@ -57,27 +57,99 @@ repo_url: https://github.com/harry-cmartin/my-second-brain
 
 nav:
   - Bem vindo: index.md
-  - Java:
-      - Java Básico :
-        - Funções do Java: Java/JavaBasico/javaintro.md
-        - Hístoria do Java: Java/JavaBasico/javahistory.md
-        - Plataforma Java: Java/JavaBasico/javaplataforms.md
   - Fundamentos:
       - Funcionamento do Computador: Fundamentos/FuncionamentoComputador.md
       - Processadores: Fundamentos/Processadores.md
       - Sistemas Operacionais: Fundamentos/SistemasOperacionais.md
       - Memória: Fundamentos/Memoria.md
+      - Linux: Fundamentos/Linux.md
+  - Java:
+      - Java Básico:
+          - Funções do Java: Java/JavaBasico/javaintro.md
+          - Hístoria do Java: Java/JavaBasico/javahistory.md
+          - Plataforma Java: Java/JavaBasico/javaplataforms.md
+      - Sintaxe:
+          - Tipos e Variáveis: Java/sintaxe/Tipos.md
+          - Palavras reservadas: Java/sintaxe/PalavrasReservadas.md
+          - Controle de Fluxo: Java/sintaxe/ControleFluxo.md
+          - Documentação: Java/sintaxe/Documentacao.md
+          - Escopo: Java/sintaxe/Escopo.md
+      - Programação Orientada a Objetos:
+          - POO: Java/Poo(Java)/ProgOrientadaObjetosJava.md
+          - Classes e Objetos: Java/Poo(Java)/classesobjetos.md
+          - Lidando com classes e objetos: Java/Poo(Java)/EnumsGetterSetterConstructor.md
+          - Enums: Java/Poo(Java)/Enums.md
+      - Lógica de Programação:
+          - Lógica de Programação: Java/LogicaProgramacao/LogicaProgramacao.md
+      - Estrutura de Dados:
+          - Listas: Java/EstruturaDeDados/Listas.md
+          - Pilhas: Java/EstruturaDeDados/Pilhas.md
+          - Filas: Java/EstruturaDeDados/Filas.md
+          - Arvores: Java/EstruturaDeDados/Arvores.md
+          - Grafos: Java/EstruturaDeDados/Grafos.md
+      - Frameworks:
+          - Backend:
+            - Annotations: Java/Frameworks/backend/Annotations.md
+            - Spring: Java/Frameworks/backend/Spring.md
+            - Quarkus: Java/Frameworks/backend/Quarkus.md
   - Linguagens de Programação:
       - Compilada vs Interpretada: Linguagem/CompiladaVsInterpretada.md
       - Paradigmas de Programação:
           - Paradigmas: Linguagem/Paradigmas.md
           - Imperativos: Linguagem/Imperativos.md
           - Declarativos: Linguagem/Declarativos.md
+  - Banco de Dados:
+      - Fundamentos de Banco de Dados:
+        - Operações CRUD: BancoDeDados/CRUD.md
+        - ACID: BancoDeDados/ACID.md
+        - Transações: BancoDeDados/Transacoes.md
+        - Relacionamentos: BancoDeDados/Relacionamentos.md
+        - Postgres e SQL: BancoDeDados/Postgres.md
   - Git e GitHub:
       - Versionamento de Código: Git/GitVersionamentoCodigo.md
+  - Redes e Internet:
+      - Fundamentos Web:
+        - Como a Internet Funciona: Redes/FundamentosWeb/Internet.md
+        - DNS e Domínios: Redes/FundamentosWeb/DNS.md
+        - URL: Redes/FundamentosWeb/URL.md
+        - HTTP: Redes/FundamentosWeb/HTTP.md
+        - Arquitetura Cliente-Servidor: Redes/FundamentosWeb/ClienteServidor.md
+        - Servidores Web: Redes/FundamentosWeb/ServidoresWeb.md
+        - Cache: Redes/FundamentosWeb/Cache.md
+      - Segurança:
+        - HTTP X HTTPS: Redes/Segurança/HTTPvsHTTPS.md
+        - Autenticação e Autorização: 
+          - Conceitos: Redes/Segurança/conceitossegurança.md
+          - Autenticação: Redes/Segurança/Autenticacao.md
+          - Autorização: Redes/Segurança/Autorizacao.md
+          - Token JWT: Redes/Segurança/JWT.md
+        - CORS: Redes/Segurança/CORS.md
+        - Cookies: Redes/Segurança/Cookies.md
+        - Sessions: Redes/Segurança/Sessions.md
+        - VPN: Redes/Segurança/VPN.md
+        - Firewalls: Redes/Segurança/Firewalls.md
+        - Criptografia: Redes/Segurança/Criptografia.md
+      - APIs e Integrações:
+        - APIs: Redes/APIs/APIs.md
+        - REST e RestFUL: Redes/APIs/REST.md
+        - Metodos HTTP e Codigos de Resposta: Redes/APIs/MetodosHTTP.md
+        - HATEOAS: Redes/APIs/HATEOAS.md
+        - JSON e XML: Redes/APIs/JSONvsXML.md
+        - GraphQL: Redes/APIs/GraphQL.md
+        - Webhooks e Websockets: Redes/APIs/WebhooksWebsockets.md
+        - GRPC: Redes/APIs/gRPC.md
+        - HTTP3 (Quic): Redes/APIs/HTTP3.md
+        - Paginação, Filtros e Versionamento de API: Redes/APIs/PaginacaoFiltrosVersionamento.md
+  - Docker:
+      - Fundamentos de Docker:
+        - O que é Docker: Docker/Fundamentos/OqueEDocker.md
+        - Lista de comandos úteis: Docker/Fundamentos/ComandosDocker.md
+        - Imagens, Containers e Networks: Docker/Fundamentos/ImagensContainers.md
+        - Dockerfile: Docker/Fundamentos/Dockerfile.md
+        - Docker Compose: Docker/Fundamentos/DockerCompose.md
+  
+      
 
-      
-      
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
 # | The "theme" section allows you to define what theme to use.                                            |
@@ -353,31 +425,13 @@ extra:
 # +--------------------------------------------------------------------------------------------------------+
 markdown_extensions:
   - markdown.extensions.admonition:
-  - markdown.extensions.codehilite:
-      guess_lang: false
   - markdown.extensions.toc:
       permalink: true
-  #- pymdownx.arithmex:
-  #- pymdownx.b64:
-  #- pymdownx.betterem:
-  #- pymdownx.caret:
-  #- pymdownx.critic:
-  #- pymdownx.details:
-  #- pymdownx.emoji:
-  #- pymdownx.escapeall:
-  #- pymdownx.extra:
-  #- pymdownx.extrarawhtml:
-  #- pymdownx.highlight:
-  #- pymdownx.inlinehilite:
-  #- pymdownx.keys:
-  #- pymdownx.magiclink:
-  #- pymdownx.mark:
-  #- pymdownx.pathconverter:
-  #- pymdownx.progressbar:
-  #- pymdownx.smartsymbols:
-  #- pymdownx.snippets:
-  #- pymdownx.striphtml:
-  #- pymdownx.superfences:
-  #- pymdownx.tabbed:
-  #- pymdownx.tasklist:
-  #- pymdownx.tilde:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite:
+  - pymdownx.superfences:
+  - pymdownx.tabbed:
+      alternate_style: true

@@ -74,12 +74,17 @@ A ISA caracteriza o que um hardware pode fazer, ou seja, inclui todas as instru�
 
 A relação entre a ISA e o assembly é que o assembly proporciona uma representação passível de compreensão por humanos da ISA de determinado hardware.
 
-## Bibliografia
+##### Bibliografia
 
 > Como um computador funciona? Disponível em: https://dev.to/erick_tmr/como-um-computador-funciona-4me9. Acesso em: 30 de maio de 2026.
 
-## Histórico de Versões
 
-| Versão |    Data    | Descrição            | Autor(es)                                    | Revisor(es) |
-| ------ | :--------: | -------------------- | -------------------------------------------- | ----------- |
-| 1.0    | 30/05/2026 | Criação do documento | [Harryson](https://github.com/harry-cmartin) |             |
+
+#### Histórico de Versões
+
+
+
+| Versão |    Data    | Descrição                                 | Autor(es)                                       | Revisor(es)                                    |
+| ------ | :--------: | ----------------------------------------- | ----------------------------------------------- | ---------------------------------------------- |
+| 1.0    | 30/05/2026 | Criação do documento                        | [Harryson](https://github.com/harry-cmartin) |       |
+

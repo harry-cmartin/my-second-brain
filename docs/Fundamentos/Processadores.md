@@ -86,12 +86,16 @@ Uma thread representa o menor fluxo de execução de um programa. Quando um prog
 Por exemplo, um processador com 6 núcleos físicos e suporte a 12 threads pode executar até 12 fluxos de execução simultaneamente, embora possua apenas 6 núcleos físicos. Essa técnica contribui para melhorar o desempenho em aplicações que realizam múltiplas tarefas concorrentes.
 
 
-## Bibliografia 
+#### Bibliografia 
 
 >  O que é uma unidade central de processamento (CPU)? Disponível em: https://www.ibm.com/br-pt/think/topics/central-processing-unit. Acesso em: 30 de maio de 2026.
 
 
-## Histórico de Versões
+
+
+#### Histórico de Versões
+
+
 
 | Versão |    Data    | Descrição                                 | Autor(es)                                       | Revisor(es)                                    |
 | ------ | :--------: | ----------------------------------------- | ----------------------------------------------- | ---------------------------------------------- |

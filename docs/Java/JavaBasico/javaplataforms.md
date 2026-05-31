@@ -62,13 +62,14 @@ Graças à máquina virtual Java, os programas escritos em Java podem funcionar 
 ![Plataformas Java](../../assets/images/JavaVirtualMachine.png)
 
 
-
-## Bibliografia 
+#### Bibliografia 
 
 >  
 
 
-## Histórico de Versões
+#### Histórico de Versões
+
+
 
 | Versão |    Data    | Descrição                                 | Autor(es)                                       | Revisor(es)                                    |
 | ------ | :--------: | ----------------------------------------- | ----------------------------------------------- | ---------------------------------------------- |

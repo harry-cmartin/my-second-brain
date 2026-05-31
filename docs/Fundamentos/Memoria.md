@@ -73,12 +73,14 @@ Além disso, temos tecnologias como o *Hyper-Threading* (da Intel), que treina c
 
 
 
-## Bibliografia 
+#### Bibliografia 
 
-> 
+>  
 
 
-## Histórico de Versões
+#### Histórico de Versões
+
+
 
 | Versão |    Data    | Descrição                                 | Autor(es)                                       | Revisor(es)                                    |
 | ------ | :--------: | ----------------------------------------- | ----------------------------------------------- | ---------------------------------------------- |

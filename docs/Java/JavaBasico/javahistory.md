@@ -44,12 +44,14 @@ Em maio de 1995, a Sun anunciou Java formalmente em uma conferência importante.
 | Java SE 17 (LTS) | 09/2021 | Filtros de desserialização por contexto, Pattern Matching para `switch` (preview) e melhorias de segurança e desempenho. |
 
 
-## Bibliografia 
+#### Bibliografia 
 
 >  
 
 
-## Histórico de Versões
+#### Histórico de Versões
+
+
 
 | Versão |    Data    | Descrição                                 | Autor(es)                                       | Revisor(es)                                    |
 | ------ | :--------: | ----------------------------------------- | ----------------------------------------------- | ---------------------------------------------- |

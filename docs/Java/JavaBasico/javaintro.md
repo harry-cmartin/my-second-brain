@@ -57,15 +57,18 @@ Nas linguagens de programação, você aprendeu que eles usam o compilador ou o 
 Thread é um subprocesso leve e independente de um programa em execução (ou seja, processo) que compartilha recursos. Multi-threading é o nome dado ao processo de vários threads sendo executados simultaneamente.
 
 
-## Bibliografia 
+#### Bibliografia 
 
 >  
 
 
-## Histórico de Versões
+#### Histórico de Versões
+
+
 
 | Versão |    Data    | Descrição                                 | Autor(es)                                       | Revisor(es)                                    |
 | ------ | :--------: | ----------------------------------------- | ----------------------------------------------- | ---------------------------------------------- |
 | 1.0    | 30/05/2026 | Criação do documento                        | [Harryson](https://github.com/harry-cmartin) |       |
+
 
 

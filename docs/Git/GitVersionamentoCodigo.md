@@ -372,12 +372,14 @@ O GitHub é uma plataforma de hospedagem em nuvem (um site) voltada para projeto
 
 </center>
 
-## Bibliografia 
+#### Bibliografia 
 
 >  
 
 
-## Histórico de Versões
+#### Histórico de Versões
+
+
 
 | Versão |    Data    | Descrição                                 | Autor(es)                                       | Revisor(es)                                    |
 | ------ | :--------: | ----------------------------------------- | ----------------------------------------------- | ---------------------------------------------- |
