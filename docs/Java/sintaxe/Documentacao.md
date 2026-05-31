@@ -43,11 +43,6 @@ Quais as informações que obtemos através de classes documentadas na linguagem
     }
     ```
 
-=== "Pop-up no VS Code"
-
-    Esta é a forma como o VS Code exibe a leitura do comentário estruturado com Javadoc quando alguém tenta usar a função.
-
-    ![Documentacao](../../../assets/images/DocumentacaoPopup.jpg)
 
 ## **Tipos de Comentários**
 
