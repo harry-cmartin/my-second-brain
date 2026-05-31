@@ -41,5 +41,5 @@ jobs:
     - name: Deploy Files
       run: |
         git config user.name "harry-cmartin"
-        git config user.email "harysoncampos@gmail.com"
+        git config user.email "harrysoncampos@gmail.com"
         mkdocs gh-deploy --force
