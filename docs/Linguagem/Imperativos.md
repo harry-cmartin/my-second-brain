@@ -68,7 +68,7 @@ O paradigma orientado a objetos também inclui conceitos-chave como encapsulamen
 O detalhamneto desse paradigma e suas características estão descritos no documento, com foco na linguagem Java [Programação Orientada a Objetos](../Java/Poo(Java)/ProgOrientadaObjetosJava.md).
 
 
-
+tess
 
 ## Bibliografia 
 
