@@ -56,7 +56,7 @@ repo_url: https://github.com/harry-cmartin/my-second-brain
 #edit_uri: tree/master/docs # Uncomment to define a different URI/URL for the "edit" option
 
 nav:
-  - Welcome: index.md
+  - Bem vindo: index.md
   - Java:
       - Java Básico :
         - Funções do Java: Java/JavaBasico/javaintro.md
