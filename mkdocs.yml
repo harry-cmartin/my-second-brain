@@ -82,7 +82,6 @@ nav:
       - Lógica de Programação:
           - Lógica de Programação: Java/LogicaProgramacao/LogicaProgramacao.md
       - Estrutura de Dados:
-          - Listas: Java/EstruturaDeDados/Listas.md
           - Pilhas: Java/EstruturaDeDados/Pilhas.md
           - Filas: Java/EstruturaDeDados/Filas.md
           - Arvores: Java/EstruturaDeDados/Arvores.md

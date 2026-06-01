@@ -1,8 +1,8 @@
 
 
-Tipos e Variáveis
+# **Tipos e Variáveis**
 
-Tipos de dados
+## **Tipos de dados**
 
 
 No Java, existem algumas palavras reservadas para a representação dos tipos de dados básicos que precisam ser manipulados para a construção de programas. Estes tipos de dados são conhecidos como tipos primitivos (Primitive Types).
@@ -165,6 +165,26 @@ O Java facilita a sua vida convertendo automaticamente um tipo primitivo para o 
 - Por que precisamos delas?Coleções (Collections): Estruturas de dados como ArrayList ou HashMap só trabalham com objetos, e não com dados primitivos. Para guardar números em uma lista, você precisa da versão Wrapper.
 
 - Métodos utilitários: Elas oferecem métodos muito úteis para conversão de dados. Por exemplo, para transformar um texto (String) em um número inteiro (int), você usa o método da classe Wrapper:int idade = Integer.parseInt("25");
+
+### **Declarando Variáveis**
+
+```java
+
+    int[] idade = new int[4]; // Declaração de um array de inteiros
+    char[] letras = new char[5]; // Declaração de um array de caracteres
+    
+    double salario = 5000.50; // Declaração de um número decimal
+    boolean isAtivo = true; // Declaração de um valor booleano
+    char letra = 'A'; // Declaração de um caractere
+    String nome = "João"; // Declaração de uma string
+    var numero = 42; // Declaração usando inferência de tipo (Java 10+)
+    short pequenoNumero = 100; // Declaração de um número curto
+    long grandeNumero = 123456789L; // Declaração de um número longo
+    byte byteValor = 127; // Declaração de um número byte
+    float valorFloat = 3.14f; // Declaração de um número float
+
+
+```
 
 #### Bibliografia 
 
