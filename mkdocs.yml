@@ -86,6 +86,7 @@ nav:
           - Filas: Java/EstruturaDeDados/Filas.md
           - Arvores: Java/EstruturaDeDados/Arvores.md
           - Grafos: Java/EstruturaDeDados/Grafos.md
+          - HashTable: Java/EstruturaDeDados/HashTable.md
       - Frameworks:
           - Backend:
             - Annotations: Java/Frameworks/backend/Annotations.md

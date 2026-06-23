@@ -33,7 +33,7 @@ Assim como nas filas de mensagens, ninguém reinventa Tabelas Hash em sistemas d
 
 Se você tem centenas de servidores precisando acessar dados ultrarrápidos, você utiliza serviços que funcionam como "Tabelas Hash Globais" e ficam hospedados diretamente na memória RAM das máquinas (para serem milhares de vezes mais rápidos que buscar no HD). Os gigantes do mercado para isso são o **Redis** e o **Memcached**. Quase todo grande aplicativo que você utiliza (Twitter, Netflix, Uber) usa o Redis massivamente para armazenar as sessões dos usuários, rankings em tempo real e qualquer dado que não pode esperar os milissegundos de um banco de dados tradicional para carregar.
 
-
+Implementação em JAVA muito boa [link](https://mauricio.github.io/2020/10/15/implementando-uma-hashtable-em-java.html)
 
 #### Bibliografia 
 
